@@ -1,4 +1,4 @@
-]']'# Implement your procedural solution here!
+# Implement your procedural solution here!
 def even_fibonacci_sum(limit)
   array = [1, 2]
   
