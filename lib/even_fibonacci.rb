@@ -11,10 +11,10 @@ def even_fibonacci_sum(limit)
   end
   puts array
   
-  # newArray = array.select do |item| 
-  #   item.even?  
-  # end
+  newArray = array.select do |item| 
+     item.even?  
+  end
   
-  # newArray.reduce(0) {|total, item| total + item }
+  newArray.reduce(0) {|total, item| total + item }
   
 end
