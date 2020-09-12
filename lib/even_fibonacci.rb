@@ -9,6 +9,7 @@ def even_fibonacci_sum(limit)
     
     #fibo = (1..limit).inject([0,1]){ |f, n| f << f[-2] + f[-1] }
   end
+  puts array
   
   newArray = array.select do |item| 
     item.even?  
