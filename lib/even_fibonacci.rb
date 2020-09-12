@@ -2,10 +2,11 @@
 def even_fibonacci_sum(limit)
   array = [1, 2]
   
-  i = 0
+  i = 1 + 2
   while i < limit
-    i = array[-2] + array[-1]
     array << i
+    i = array[-2] + array[-1]
+    
     
     #fibo = (1..limit).inject([0,1]){ |f, n| f << f[-2] + f[-1] }
   end
