@@ -6,9 +6,6 @@ def even_fibonacci_sum(limit)
   while i < limit
     array << i
     i = array[-2] + array[-1]
-    
-    
-    #fibo = (1..limit).inject([0,1]){ |f, n| f << f[-2] + f[-1] }
   end
   puts array
   
